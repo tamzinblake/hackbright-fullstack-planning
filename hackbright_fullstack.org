@@ -1,0 +1,68 @@
+* Lesson template (with examples)
+** Benefit story
+*** (git) I changed a file and now want the old version back
+** Bulleted list of benefits
+*** (git) History, collaboration, release versions, remote storage, git bisect, git blame
+** Example in lecture - walk the class through it
+*** (git) git bisect example
+** Lab exercise - tie together everything
+*** (simple website) Create a simple web form that responds to the user
+* Installfest
+** Everyone
+*** Chrome
+*** Atom (or favorite editor)
+** Mac
+*** Xcode
+Download from app store
+*** Iterm2
+Google search, download from official site
+*** Xcode command-line tools
+Type gcc into a terminal and follow the prompt
+*** Homebrew
+Google search, download from official site
+*** Node/npm
+brew install node
+** Linux (assuming Ubuntu/Debian)
+*** git
+sudo apt-get install git
+*** Node/npm
+see http://blog.teamtreehouse.com/install-node-js-npm-linux
+** Windows
+*** Let's hope there aren't any of this
+*** Virtualbox / ubuntu?
+* Lesson: git
+** Benefit story
+*** Oh no I deleted the wrong file.  I don't want to write the whole thing again!
+*** How could I have avoided this? Get ideas from the class.
+*** Show how git lets you do this easily - demonstrate git checkout
+** Bulleted list of benefits
+*** History
+You can see each of the changes in the history, revert bad changes,
+find things you've deleted - demonstrate git log
+*** Collaboration
+You can work together with another person, review code, merge together
+your changes - demonstrate git diff
+*** git bisect
+You can track down the source of a bug by doing a binary search
+through your history - demonstrate git bisect
+** Example in lecture: git bisect
+*** Walk through the git bisect exercise, asking the class whether it's good or bad
+** Lab exercise
+*** Use the exercise after GitHub
+* Lesson: GitHub
+** Benefit story
+*** I want to share my project with the world
+*** to allow collaborators, help others learn, distribute my program
+*** How could I do this? Get ideas from the class.
+*** Show how GitHub makes it easy to do this - demonstrate git push
+** Bulleted list of benefits
+*** Remote storage
+You can easily push your code to GitHub so you don't lose it if your
+computer crashes, and you can download it on a different computer. -
+demonstrate git clone
+*** Code reviews
+You can push your code remotely so that others can read and review it,
+and the project maintainer can choose whether to accept the code -
+demonstrate pull request
+** Lab exercise
+*** Part 1: fork bisect-example and fix the bug.  Submit a pull request.
